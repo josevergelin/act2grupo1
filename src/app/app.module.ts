@@ -10,11 +10,19 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MyNavComponent } from './my-nav/my-nav.component';
+import {TarjetasComponent} from './tarjetas/tarjetas.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatMenuModule} from '@angular/material/menu';
+import {MenuComponent} from './menu/menu.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyNavComponent
+    MyNavComponent,
+    TarjetasComponent,
+    MenuComponent
+
   ],
   imports: [
     BrowserModule,
@@ -24,7 +32,9 @@ import { MyNavComponent } from './my-nav/my-nav.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
