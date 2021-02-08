@@ -12,8 +12,8 @@ import { MatListModule } from '@angular/material/list';
 import { MyNavComponent } from './my-nav/my-nav.component';
 import {TarjetasComponent} from './tarjetas/tarjetas.component';
 import {MatCardModule} from '@angular/material/card';
-import {MatMenuModule} from '@angular/material/menu';
-import {MenuComponent} from './menu/menu.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AcordionComponent } from './acordion/acordion.component';
 
 
 @NgModule({
@@ -21,7 +21,8 @@ import {MenuComponent} from './menu/menu.component';
     AppComponent,
     MyNavComponent,
     TarjetasComponent,
-    MenuComponent
+    AcordionComponent
+
 
   ],
   imports: [
@@ -34,9 +35,10 @@ import {MenuComponent} from './menu/menu.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
-    MatMenuModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

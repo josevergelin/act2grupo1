@@ -18,7 +18,7 @@ body {
 	line-height: 1.6;
 	font-weight: 400;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #222; 
+	color: cadetblue;
 }
 
 /* Typography
@@ -26,7 +26,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	margin-bottom: 2rem;
-	font-weight: 300; 
+	font-weight: 300;
 }
 h1 { font-size: 2.0rem; line-height: 1.2; }
 h2 { font-size: 1.8rem; line-height: 1.25;}
@@ -37,17 +37,18 @@ h6 { font-size: 1.0rem; line-height: 1.6;}
 
 
 p {
-	margin-top: 0; 
+	margin-top: 0;
+  color: cadetblue;
 }
 
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-	color: #1EAEDB; 
+	color: #1EAEDB;
 }
 a:hover {
-	color: #0FA0CE; 
+	color: #0FA0CE;
 }
 
 img {
@@ -63,7 +64,7 @@ button {
 	background-color: #000;
 	border: none;
 	border-radius: 3px;
-	color: #fff;
+	color: cadetblue;
 	height: auto;
 	padding: 8px 37px;
 	font-weight: 400;
@@ -165,7 +166,7 @@ hr {
 
 
 .hero-text {
-	padding: 25px; 
+	padding: 25px;
 	text-align: center;
 	width: 100%;
 }
@@ -180,7 +181,7 @@ hr {
 }
 
 .author {
-	font-size: 0.8rem; 
+	font-size: 0.8rem;
 }
 
 .team .team-name {
@@ -215,7 +216,7 @@ hr {
 	position: absolute;
 	padding: 0;
 	transition: opacity .5s;
-	color: #fff;
+	color: cadetblue;
 	display: flex;
 	align-items: center;
 }
@@ -337,7 +338,7 @@ input, textarea {
 /* footer */
 
 footer {
-	background-color: #eee;
+	background-color: cadetblue;
 	padding: 5rem 0;
 }
 
@@ -359,7 +360,7 @@ footer li a{
 
 
 .secondary-footer {
-	background-color: #e1e0e0;
+	background-color: cadetblue;
 	padding: 1rem;
 	margin: 0 auto;
 }
@@ -388,8 +389,8 @@ footer li a{
 
 	.row {
 		margin: 0 auto;
-		padding-left: 1rem; 
-		padding-right: 1rem; 
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 
 	.cta .display {
