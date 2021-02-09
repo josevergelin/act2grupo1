@@ -22,7 +22,6 @@ import {MatMenuModule} from '@angular/material/menu';
     MyNavComponent,
     TarjetasComponent
 
-
   ],
   imports: [
     BrowserModule,
