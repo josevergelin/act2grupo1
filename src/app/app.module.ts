@@ -13,15 +13,15 @@ import { MyNavComponent } from './my-nav/my-nav.component';
 import {TarjetasComponent} from './tarjetas/tarjetas.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
-import {MenuComponent} from './menu/menu.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MyNavComponent,
-    TarjetasComponent,
-    MenuComponent
+    TarjetasComponent
+
 
   ],
   imports: [
