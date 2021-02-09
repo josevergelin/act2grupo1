@@ -15,6 +15,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
 import {AcordionComponent} from './acordion/acordion.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { TableComponent } from './table/table.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     MyNavComponent,
     TarjetasComponent,
     AcordionComponent,
+    TableComponent,
   ],
   imports: [
     BrowserModule,
