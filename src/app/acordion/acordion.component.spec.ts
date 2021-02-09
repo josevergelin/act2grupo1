@@ -23,4 +23,3 @@ describe('AcordionComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-

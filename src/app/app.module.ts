@@ -13,15 +13,14 @@ import { MyNavComponent } from './my-nav/my-nav.component';
 import {TarjetasComponent} from './tarjetas/tarjetas.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
-import {AcordionComponent} from './acordion/acordion.component';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MyNavComponent,
-    TarjetasComponent,
-    AcordionComponent
+    TarjetasComponent
 
   ],
   imports: [
@@ -34,11 +33,9 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     MatIconModule,
     MatListModule,
     MatCardModule,
-    MatMenuModule,
-    NgbModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule { }
