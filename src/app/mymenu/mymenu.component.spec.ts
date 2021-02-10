@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MyGridComponent } from './my-grid.component';
+import { MymenuComponent } from './mymenu.component';
 
-describe('MyGridComponent', () => {
-  let component: MyGridComponent;
-  let fixture: ComponentFixture<MyGridComponent>;
+describe('MymenuComponent', () => {
+  let component: MymenuComponent;
+  let fixture: ComponentFixture<MymenuComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MyGridComponent ]
+      declarations: [ MymenuComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MyGridComponent);
+    fixture = TestBed.createComponent(MymenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

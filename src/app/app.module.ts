@@ -18,6 +18,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { TableComponent } from './table/table.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { TopBannerComponent } from './top-banner/top-banner.component';
+import { MycardsComponent } from './mycards/mycards.component';
+import { MymenuComponent } from './mymenu/mymenu.component';
 
 
 @NgModule({
@@ -29,6 +31,8 @@ import { TopBannerComponent } from './top-banner/top-banner.component';
     TableComponent,
     ToolbarComponent,
     TopBannerComponent,
+    MycardsComponent,
+    MymenuComponent,
   ],
   imports: [
     BrowserModule,
