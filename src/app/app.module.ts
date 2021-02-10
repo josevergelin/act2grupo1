@@ -24,7 +24,6 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { TopBannerComponent } from './top-banner/top-banner.component';
 import { MycardsComponent } from './mycards/mycards.component';
 import { MymenuComponent } from './mymenu/mymenu.component';
-import { MyformComponent } from './myform/myform.component';
 
 >>>>>>> 6520f5eb8f58cac93a829d54a8a9839a08da1962
 =======
@@ -51,8 +50,11 @@ import { MyformComponent } from './myform/myform.component';
     TopBannerComponent,
     MycardsComponent,
     MymenuComponent,
+<<<<<<< HEAD
     MyformComponent,
 >>>>>>> 6520f5eb8f58cac93a829d54a8a9839a08da1962
+=======
+>>>>>>> parent of cce1ba5 (Form)
   ],
   imports: [
     BrowserModule,
