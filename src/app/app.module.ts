@@ -20,6 +20,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { TopBannerComponent } from './top-banner/top-banner.component';
 import { MycardsComponent } from './mycards/mycards.component';
 import { MymenuComponent } from './mymenu/mymenu.component';
+import { MyformComponent } from './myform/myform.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { MymenuComponent } from './mymenu/mymenu.component';
     TopBannerComponent,
     MycardsComponent,
     MymenuComponent,
+    MyformComponent,
   ],
   imports: [
     BrowserModule,
