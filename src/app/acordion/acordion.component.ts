@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./acordion.component.css']
 })
 export class AcordionComponent implements OnInit {
+  InterpolationTitle = 'Más Información';
+
   public isCollapsed = true;
   constructor() { }
 

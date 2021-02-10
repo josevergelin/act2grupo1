@@ -4,7 +4,7 @@
       <p>
         <button type="button" class="btn btn-secondary" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed"
                 aria-controls="collapseExample">
-          MÁS INFORMACIÓN
+          {{InterpolationTitle}}
         </button>
       </p>
       <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
