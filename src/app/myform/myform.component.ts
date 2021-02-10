@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./myform.component.css']
 })
 export class MyformComponent implements OnInit {
+  title = 'ESCRÍBENOS'
 
   constructor() { }
 
