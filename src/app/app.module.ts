@@ -13,10 +13,6 @@ import { MyNavComponent } from './my-nav/my-nav.component';
 import {TarjetasComponent} from './tarjetas/tarjetas.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
-<<<<<<< HEAD
-<<<<<<< HEAD
-import {MenuComponent} from './menu/menu.component';
-=======
 import {AcordionComponent} from './acordion/acordion.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { TableComponent } from './table/table.component';
@@ -24,37 +20,22 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { TopBannerComponent } from './top-banner/top-banner.component';
 import { MycardsComponent } from './mycards/mycards.component';
 import { MymenuComponent } from './mymenu/mymenu.component';
+import { MyformComponent } from './myform/myform.component';
 
->>>>>>> 6520f5eb8f58cac93a829d54a8a9839a08da1962
-=======
-
->>>>>>> parent of 5568d0a (footer)
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MyNavComponent,
-<<<<<<< HEAD
     TarjetasComponent,
-<<<<<<< HEAD
-    MenuComponent
-=======
-    TarjetasComponent
->>>>>>> parent of 5568d0a (footer)
-
-=======
     AcordionComponent,
     TableComponent,
     ToolbarComponent,
     TopBannerComponent,
     MycardsComponent,
     MymenuComponent,
-<<<<<<< HEAD
     MyformComponent,
->>>>>>> 6520f5eb8f58cac93a829d54a8a9839a08da1962
-=======
->>>>>>> parent of cce1ba5 (Form)
   ],
   imports: [
     BrowserModule,
