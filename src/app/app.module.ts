@@ -21,6 +21,7 @@ import { TopBannerComponent } from './top-banner/top-banner.component';
 import { MycardsComponent } from './mycards/mycards.component';
 import { MymenuComponent } from './mymenu/mymenu.component';
 import { MyformComponent } from './myform/myform.component';
+import { MyFooterComponent } from './my-footer/my-footer.component';
 
 
 
@@ -36,6 +37,7 @@ import { MyformComponent } from './myform/myform.component';
     MycardsComponent,
     MymenuComponent,
     MyformComponent,
+    MyFooterComponent,
   ],
   imports: [
     BrowserModule,
