@@ -13,7 +13,19 @@ import { MyNavComponent } from './my-nav/my-nav.component';
 import {TarjetasComponent} from './tarjetas/tarjetas.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
+<<<<<<< HEAD
 import {MenuComponent} from './menu/menu.component';
+=======
+import {AcordionComponent} from './acordion/acordion.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { TableComponent } from './table/table.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { TopBannerComponent } from './top-banner/top-banner.component';
+import { MycardsComponent } from './mycards/mycards.component';
+import { MymenuComponent } from './mymenu/mymenu.component';
+import { MyformComponent } from './myform/myform.component';
+
+>>>>>>> 6520f5eb8f58cac93a829d54a8a9839a08da1962
 
 
 @NgModule({
@@ -21,8 +33,18 @@ import {MenuComponent} from './menu/menu.component';
     AppComponent,
     MyNavComponent,
     TarjetasComponent,
+<<<<<<< HEAD
     MenuComponent
 
+=======
+    AcordionComponent,
+    TableComponent,
+    ToolbarComponent,
+    TopBannerComponent,
+    MycardsComponent,
+    MymenuComponent,
+    MyformComponent,
+>>>>>>> 6520f5eb8f58cac93a829d54a8a9839a08da1962
   ],
   imports: [
     BrowserModule,
@@ -34,7 +56,8 @@ import {MenuComponent} from './menu/menu.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
