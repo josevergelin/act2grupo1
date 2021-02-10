@@ -22,6 +22,7 @@ import { MycardsComponent } from './mycards/mycards.component';
 import { MymenuComponent } from './mymenu/mymenu.component';
 import { MyformComponent } from './myform/myform.component';
 import { MyFooterComponent } from './my-footer/my-footer.component';
+import { MyPortfolioComponent } from './my-portfolio/my-portfolio.component';
 
 
 
@@ -38,6 +39,7 @@ import { MyFooterComponent } from './my-footer/my-footer.component';
     MymenuComponent,
     MyformComponent,
     MyFooterComponent,
+    MyPortfolioComponent,
   ],
   imports: [
     BrowserModule,
