@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'act2grupo1';
+  opcionMenu = 1;
 }

@@ -2,8 +2,22 @@
   <mat-toolbar color="primary">
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" [matMenuTriggerFor]="menu">
       <mat-menu #menu="matMenu">
-        <button mat-menu-item>Item 1</button>
-        <button mat-menu-item>Item 2</button>
+        <button mat-menu-item (click)="onclickServicios()">
+          <mat-icon>home_work</mat-icon>
+          <span>Home</span>
+        </button>
+        <button mat-menu-item (click)="onclickEquipo()">
+          <mat-icon>groups</mat-icon>
+          <span>Nuestro Equipo</span>
+        </button>
+        <button mat-menu-item (click)="onclicksPortafolio()">
+          <mat-icon>poll</mat-icon>
+          <span>Portafolio</span>
+        </button>
+        <button mat-menu-item (click)="onclickEscribenos()">
+          <mat-icon>contact_page</mat-icon>
+          <span>Escríbenos</span>
+        </button>
       </mat-menu>
       <mat-icon>menu</mat-icon>
     </button>

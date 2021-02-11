@@ -1,10 +1,10 @@
 <app-top-banner></app-top-banner>
-<app-toolbar></app-toolbar>
-<app-mycards></app-mycards>
-<app-acordion></app-acordion>
-<app-table></app-table>
-<app-my-portfolio></app-my-portfolio>
-<app-myform></app-myform>
+<app-toolbar (dandoClick)="opcionMenu = $event"></app-toolbar>
+<app-mycards *ngIf="opcionMenu==1"></app-mycards>
+<app-acordion *ngIf="opcionMenu==1"></app-acordion>
+<app-table *ngIf="opcionMenu==2"></app-table>
+<app-my-portfolio *ngIf="opcionMenu==3"></app-my-portfolio>
+<app-myform *ngIf="opcionMenu==4"></app-myform>
 <app-my-footer></app-my-footer>
 
 
